@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AKQA</title>  
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<link href="css/style.css" rel="stylesheet">
+</head> 
+
+<body>
+	<header id="header">
+		<div class="container">
+			<img src="images/logo.png" alt="AKQA logo"/>
+		</div>
+	</header>
+	<section id="checkout">
+		<div class="container">
+			<h1>Your Basket</h1>
+			<p>Items you have added to your basket are shown below.</p>
+			<p>Adjust the quantities or remove items before continuing your purchase..</p>			
+			<table class="table" cellspacing="0" cellpadding="0">
+				<thead>
+					<tr>
+						<th>Product</th>
+						<th>Price</th>
+						<th>Qty</th>
+						<th>Cost</th>				
+						<th class="empty"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Cotton T-Shirt, Medium</td>
+						<td><span class="price">1.99</span></td>
+						<td><input type="number" min="1"/></td>
+						<td class="cost">1.99</td>								
+						<td class="edit-buttons"></td>
+					</tr>
+					<tr>
+						<td>Baseball Cap, One Size</td>
+						<td><span class="price">2.99</span></td>
+						<td><input type="number" min="1" /></td>
+						<td class="cost">5.98</td>				
+						<td class="edit-buttons"></td>
+					</tr>
+					<tr>
+						<td>Swim Shorts, Medium</td>
+						<td><span class="price">3.99</span></td>				
+						<td><input type="number" min="1"/></td>	
+						<td class="cost">3.99</td>				
+						<td class="edit-buttons"></td>
+					</tr>
+								  
+				</tbody>
+				<tfoot>
+					<tr>
+						<td class="subtotal">Subtotal</td>
+						<td class="subtotal">&nbsp;</td>				
+						<td class="subtotal">&nbsp;</td>	
+						<td class="subtotal sum" id="subtotal">11.96</td>				
+						<td class="subtotal">&nbsp;</td>
+					</tr>	
+					<tr>
+						<td class="vat">VAT @ 20%</td>
+						<td class="vat">&nbsp;</td>				
+						<td class="vat">&nbsp;</td>	
+						<td class="vat sum" id="tax">2.94</td>				
+						<td class="vat">&nbsp;</td>
+					</tr>	
+					<tr>
+						<td class="total_cost"><b>Total Cost</b></td>
+						<td>&nbsp;</td>				
+						<td>&nbsp;</td>	
+						<td class="total_cost sum" id="grandtotal"></td>				
+						<td>&nbsp;</td>
+					</tr>
+				</tfoot>				
+			</table>
+			
+			<button class="buy">Buy Now >> </button>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="container">
+			<p>© <b>2013 AKQA Ltd.</b> Registered in England: 2964394</p>
+		</div>
+	</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/javascript.js"></script>
+</body>
+</html>

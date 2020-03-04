@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif.woff2') format('woff2'),
+        url('../fonts/DroidSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif-Bold.woff2') format('woff2'),
+        url('../fonts/DroidSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif-Italic.woff2') format('woff2'),
+        url('./fonts/DroidSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif-BoldItalic.woff2') format('woff2'),
+        url('../fonts/DroidSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'DroidSerif';
+}
+body{
+    min-height: 1020px;
+    min-width: 1020px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,d9d9d9+100,d9d9d9+101 */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(217,217,217,1) 100%, rgba(217,217,217,1) 101%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(217,217,217,1) 100%,rgba(217,217,217,1) 101%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(217,217,217,1) 100%,rgba(217,217,217,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0 ); /* IE6-9 */
+	position:relative;
+}
+h1{
+	font-family: 'DroidSerif';
+	 font-weight: normal;
+    font-style: normal;
+}
+h2{
+	font-family: 'DroidSerif';
+	font-weight: bold;
+    font-style: normal;
+}
+h3{
+	font-family: 'DroidSerif';
+	 font-weight: normal;
+    font-style: italic;
+}
+h4{
+	font-family: 'DroidSerif';
+	font-weight: bold;
+    font-style: italic;
+}
+.container{
+	width:567px;
+	margin:auto;
+}
+#header{    margin-top: 24vh;}
+#header .container img{
+	cursor:pointer;
+}
+#checkout{
+	margin-top: 8vh;
+	
+}
+#checkout h1{
+	font-family: 'DroidSerif';
+	font-size:30px;
+	font-weight: bold;
+	line-height: 70px;
+	text-shadow: 1px 2px 1px #0000008a;
+}
+#checkout p{
+	font-size:14px;
+}
+#checkout p:last-child{
+    margin-bottom: 40px;
+}
+table{
+	width: 100%;
+    margin-top: 60px;
+}
+table thead tr th{
+	border-bottom: 1px solid #000;
+}
+table th{
+	font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+#footer{
+	height:40px;
+	border-top:1px solid #000;
+	color:#fff;
+	font-size:12px;
+	background:#666666;
+	line-height: 38px;
+	position: absolute;
+    bottom: -41px;
+    width: 100%;
+}
+table tr td input[type="number"]{
+	width: 38px;
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+	text-align:center;
+}
+table tr td input[type="text"]:focus{
+	outline:none;
+}
+.edit-buttons{
+	background-image: url(../images/trash.png);
+    width: 18px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 24px;
+	cursor: pointer;
+}
+.subtotal, .vat{
+	color:#666666;
+}
+table tr:nth-child(2){
+	background-color:#dddddd;
+}
+.subtotal{
+	top: 30px;
+    position: relative;
+}
+.vat{
+	bottom: 23px;
+    position: relative;
+    top: 40px;
+}
+.total_cost{
+	    top: 100px;
+    position: relative;
+}
+button{
+    position: relative;
+    top: 170px;
+    left: 370px;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+	font-size:24px;
+	color:#fff;
+	background-color:#000066;
+	cursor: pointer;
+    outline: none;
+	box-shadow: 1px 2px 3px 2px #0000005e;
+}
